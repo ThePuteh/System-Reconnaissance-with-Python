@@ -7,7 +7,7 @@ import time
 
 def display_welcome_message():
     print("JPN Reconnaisance [Version 1.00]")
-    print("(c) Puteh the Analyst. All rights reserved.\nFollow me on Github at https://github.com/ThePuteh")
+    print("(c) IT Analyst. All rights reserved.")
     print()
 
 def clear_screen():
