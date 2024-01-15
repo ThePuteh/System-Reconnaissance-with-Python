@@ -136,7 +136,7 @@ def save_to_csv(equipment_type, model, os_info, serial_number, kewpa_number, pc_
             confirm_save = input(f"Do you want to save the data for {owner_name}? (y/n): ").upper()
             if confirm_save == 'Y':
                 csvwriter.writerow([equipment_type, model, os_info, serial_number, '', f"'{kewpa_number}", pc_name, ip_address, '', owner_name])
-                print(f"Data for {owner_name} saved to {filename} excel !\nKeje elok2 yer ...")
+                print(f"Data for {owner_name} saved to {filename} excel !")
                 print("\nRestarting in 3 Second")
                 time.sleep(3)
                 clear_screen()
